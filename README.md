@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+## About the project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a currency converter website where user can convert currency from 1 currency to another currency.
+
+This project is built using 'ReactJs'. A javascript framework/library to build wonderfull website.
+
+This project also uses 'Materail UI' from user inetrface design.
+
+
+## How to run project
+
+clone the repository in your local machine
+
+run `npm install` to install all the NPM dependencies
+
+run `npm start` to run the project in your local machine
+
+run `npm run build` to build to project for production env.
+
+## Folder Structure
+
+This is a single page application(SPA) so public folder contains index.html file to show entite application.
+
+`src/components` folder contains all reusable components for application.
+
+`src/pages` folder contains all pages for the application.
+
+`src/Utils` folder contains all the javascript classes for business logic and data.
+
+App.js file is entry point for the application and it also contains routing for SPA. 
+
 
 ## Available Scripts
 

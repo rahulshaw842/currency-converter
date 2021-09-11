@@ -7,7 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.margin-bottom{
+  margin-bottom: 15px !important;
+}
+
+.margin-top{
+  margin-top: 20px !important;
+}
+
+.MuiDrawer-paperAnchorLeft{
+  width: 250px !important;
+}
+.MuiDrawer-paper{
+  top: 60px !important;
+}
+.button-center{
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  padding: 1.6rem 1rem;
+    color: #fff;
+    text-align: center;
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    background: linear-gradient(40deg,#45cafc,#303f9f) !important;
 }
